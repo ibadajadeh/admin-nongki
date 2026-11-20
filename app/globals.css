@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-50: #FDFCF9;
+  --color-cream-100: #F8F4EE;
+  --color-cream-200: #EFE6DC;
+  --color-cream-300: #E4D5C5;
+  --color-cream-400: #D5BEA6;
+  --color-cream-500: #BC9E80;
+
+  --color-caramel-50: #FDF8F3;
+  --color-caramel-100: #F9EEDF;
+  --color-caramel-200: #F2D8BA;
+  --color-caramel-300: #E9BC8D;
+  --color-caramel-400: #DE9C5C;
+  --color-caramel-500: #C97D30;
+  --color-caramel-600: #AC5F21;
+  --color-caramel-700: #894518;
+
+  --color-brownies-100: #EAE0DA;
+  --color-brownies-200: #D7C4B8;
+  --color-brownies-300: #BFA596;
+  --color-brownies-400: #9E745C;
+  --color-brownies-500: #7A4B2C;
+  --color-brownies-600: #63391E;
+  --color-brownies-700: #4F2B15;
+  --color-brownies-800: #3D1F0E;
+
+  --color-coffee-50: #F5F2F0;
+  --color-coffee-100: #E6E0DC;
+  --color-coffee-200: #CFC4BF;
+  --color-coffee-300: #AFA19A;
+  --color-coffee-500: #735D52;
+  --color-coffee-600: #524037;
+  --color-coffee-700: #3A2B24;
+  --color-coffee-800: #261B16;
+  --color-coffee-900: #18100C;
+  --color-coffee-950: #0F0A07;
+}
+
+:root {
+  --background: #F8F4EE;
+  --foreground: #261B16;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, " Raleway", Kaffeesatz, "Poppins", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars with warm coffee tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F4EE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D5BEA6;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C97D30;
+}
